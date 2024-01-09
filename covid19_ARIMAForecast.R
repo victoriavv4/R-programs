@@ -29,7 +29,7 @@ plot(cases$TotalDeaths ~ cases$TotalVaccinated, pch = 19, col = "blue")
 
 # renaming the date column
 colnames(cases)
-names(cases)[names(cases) == "ï..Date"] = "Date"
+names(cases)[names(cases) == "Ã¯..Date"] = "Date"
 names(cases)[names(cases) == "FREQUENCY"] = "Freq"
 colnames(cases)
 
